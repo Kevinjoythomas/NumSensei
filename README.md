@@ -15,5 +15,7 @@ There is a hidden layer with 100 neurons in the model with the Relu activation f
 ## Models 🔩🔩
 The accuracies on the testing set of the models I used are the following
 Logistic Regression: 92.58%
+
 Neural Network: 92.54%
+
 Deep Neural Network: 97.46% 
