@@ -4,6 +4,7 @@ This project delves into the world of digit recognition using the MNIST dataset,
  
 ## Dataset 🗃️🗃️
 The data set is the Modified National Institute of Standards and Technology database (MNIST). The MNIST dataset is a large collection of handwritten digits. Imported from sklearn.datasets library. It consists of 70,000 training examples of square 28×28 pixel images of handwritten single digits between 0 and 9 and 10,000 testing examples.
+
 mnist = fetch_openml('mnist_784')
 
 ## Geeky specs
