@@ -10,7 +10,7 @@ mnist = sklearn.datasets.fetch_openml('mnist_784')
 ## Geeky specs 🤓🤓
 The model uses the Adam optimizer because it combines elements of two other popular optimizers: RMSprop and AdaGrad, to provide an efficient and effective optimization technique. 
 Since this model has multi-class classification problems where the labels are integers as the prediction outputs sparse categorical cross-entropy was used as the loss function.
-There is a hidden layer with 100 neurons in the model with the Relu activation function and the input and output layers fit with the sigmoid activation function.
+There is a hidden layer with 100 neurons in the model with the Relu(Rectified Linear Unit) activation function and the input and output layers fit with the sigmoid activation function.
 
 ## Models 🔩🔩
 The accuracies on the testing set of the models I used are the following
